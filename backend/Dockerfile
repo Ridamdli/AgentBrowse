@@ -29,9 +29,10 @@ RUN apt-get update && apt-get install -y \
 # Copy requirements and install dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install uv
 
 # Install Playwright browsers
-RUN python -m playwright install --with-deps chromium
+RUN playwright install
 
 # Copy application code
 COPY . .
