@@ -1,7 +1,7 @@
 # AgentBrowse
  
  <p align="center">
-   <img src="https://via.placeholder.com/150?text=AgentBrowse" alt="AgentBrowse Logo" width="150" height="150">
+   <img src="src\logo.jpeg" width="150" height="150">
  </p>
  
  <p align="center">
@@ -160,5 +160,5 @@
  ---
  
  <p align="center">
-   Made with ❤️ by Your Team Name
+   Made with ❤️ by Rida El-yousfi
  </p>
